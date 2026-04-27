@@ -38,3 +38,38 @@
 
 # puts "\n✓ Ruby is working! Start with SETUP.md"
 
+puts "Hello"
+print "Hello"
+print "World"
+p "Hello"
+
+# single line comment
+
+=begin 
+This is a 
+multi-line comment
+(rarely used in practice)
+=end
+
+name = "Alex"
+age= 25
+is_student = true
+
+puts is_student
+
+user_name = "Blake"
+
+# @name = "instance variable"
+# @@name = "class variable"
+# $name = "global variable"
+# NAME = "constant"
+
+greeting = "Hello"
+name = "Alex"
+
+#concatenation
+puts greeting + ", " + name
+
+puts "#{greeting}, #{name}!"
+
+puts '#{greeting}, #{name}'
