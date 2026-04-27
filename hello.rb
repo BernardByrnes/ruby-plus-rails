@@ -125,4 +125,15 @@ nil.to_s
 
 puts "What's your name?"
 name = gets.chomp
-puts "Hello, #{name}!"
+
+puts "How old are you?"
+age = gets.chomp.to_i #convert string to Integer
+
+puts "Hey #{name.capitalize}! You are #{age} years old."
+puts "Next year you will be #{age + 1} years old 😎"
+
+if age >= 18
+  puts "You'are an adult!"
+else
+  puts "You are a minor - #{18 - age} years to go!"
+end
